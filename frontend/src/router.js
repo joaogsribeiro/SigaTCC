@@ -7,6 +7,7 @@ import DepartmentsPage from './pages/DepartmentsPage.vue'
 import ProfessorsPage from './pages/ProfessorsPage.vue'
 import StudentsPage from './pages/StudentsPage.vue'
 import TccsPage from './pages/TccsPage.vue'
+import TccFormPage from './pages/TccFormPage.vue'
 
 const routes = [
   {
@@ -18,6 +19,11 @@ const routes = [
     path: '/tccs',
     name: 'tccs',
     component: TccsPage,
+  },
+  {
+  path: '/tccs/novo',
+  name: 'tcc-create',
+  component: TccFormPage,
   },
   {
     path: '/alunos',
